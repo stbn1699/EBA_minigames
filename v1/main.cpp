@@ -20,7 +20,7 @@ int main() {
         case 'c':
             break;
         default:
-            std::cout << "connard";
+            std::cout << "ton pere la truite choisis un jeu qui existe zebi";
     }
 
     return 0;
