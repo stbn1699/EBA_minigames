@@ -1,6 +1,7 @@
 #include <iostream>
 #include "guessTheNumber.h"
 #include "help.h"
+#include "coinToss.h"
 #include "windows.h"
 
 int main() {
@@ -23,6 +24,7 @@ int main() {
                 guessTheNumber();
                 break;
             case 'c':
+                coinToss();
                 break;
             case 'h':
                 help();
