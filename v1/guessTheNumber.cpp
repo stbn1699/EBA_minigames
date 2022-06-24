@@ -1,16 +1,24 @@
 #include <iostream>
 #include "guessTheNumber.h"
 #include "windows.h"
+#include <stdlib.h>
+#include <time.h>
 
 int guessTheNumber() {
 
     SetConsoleOutputCP(CP_UTF8);
 
-    int nombreAleatoire = rand() % 100 + 1;
+
+    int nombreAleatoire;
+    const int MAX = 100, MIN = 0;
+    srand(time(NULL));
+    nombreAleatoire = (rand() % (MAX - MIN + 1)) + MIN;
+
     int nEssai = 10;
     bool trouve = false;
     bool perdu = false;
 
+    std::cout << "\n\t|Bienvenue dans guess the number|\n\n";
     std::cout << "nombre aléatoire généré!" << std::endl;
 
     while((!trouve) && (!perdu)){
@@ -22,9 +30,9 @@ int guessTheNumber() {
         if(guess == nombreAleatoire){
             nEssai--;
             if(nEssai == 9){
-                std::cout << "\n\tINCROYABLE!! vous avez trouvé " << nombreAleatoire << " du premier coup!" << std::endl;
+                std::cout << "\n\tINCROYABLE!! vous avez trouvé " << nombreAleatoire << " du premier coup!\n\n";
             }else{
-                std::cout << "\n\tBravo!! vous avez trouvé " << nombreAleatoire << " en " << 10 - nEssai << " essais" << std::endl;
+                std::cout << "\n\tBravo!! vous avez trouvé " << nombreAleatoire << " en " << 10 - nEssai << " essais\n\n";
             }
             trouve = true;
         }else if(nEssai == 0){
@@ -38,7 +46,7 @@ int guessTheNumber() {
             }
             nEssai--;
         }else if(guess > nombreAleatoire){
-            if(guess < nombreAleatoire - 10){
+            if(guess < nombreAleatoire + 10){
                 std::cout << "votre nombre est beaucoup plus grand !" << std::endl;
             }else{
                 std::cout << "votre nombre est plus grand !" << std::endl;

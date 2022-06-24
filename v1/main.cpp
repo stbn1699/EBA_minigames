@@ -20,7 +20,6 @@ int main() {
 
         switch (jeuChoisi) {
             case 'g':
-                std::cout << "\n\tBienvenue dans guess the number:\n\n";
                 guessTheNumber();
                 break;
             case 'c':
