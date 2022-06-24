@@ -8,29 +8,21 @@
       <config projectName="V_1" targetName="V_1" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coinToss.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coinToss.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Minigames C++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Minigames C++.iml" afterDir="false" />
+    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="coin toss">
+      <change afterPath="$PROJECT_DIR$/dice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dice.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-06c8d83f5075c4093e1b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-24T09-39-33-0110.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-V_1-Debug-d97614e3a54c2e5fd4b2.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/help.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/help.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
@@ -102,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656062679764</updated>
       <workItem from="1656062681489" duration="2901000" />
-      <workItem from="1656065743404" duration="629000" />
+      <workItem from="1656065743404" duration="1807000" />
     </task>
     <task id="LOCAL-00001" summary="ton pere la truite choisis un jeu que je connais zebi">
       <created>1656063015727</created>
@@ -125,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656064965539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="coin toss">
+      <created>1656066572695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656066572695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +145,7 @@
     <MESSAGE value="ton pere la truite choisis un jeu que je connais zebi" />
     <MESSAGE value="help tab" />
     <MESSAGE value="guess the nomber fonctionnel (le nombre aléatoire donnait 42 a chaque fois)" />
-    <option name="LAST_COMMIT_MESSAGE" value="guess the nomber fonctionnel (le nombre aléatoire donnait 42 a chaque fois)" />
+    <MESSAGE value="coin toss" />
+    <option name="LAST_COMMIT_MESSAGE" value="coin toss" />
   </component>
 </project>

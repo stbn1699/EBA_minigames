@@ -73,6 +73,12 @@ build CMakeFiles/V_1.dir/coinToss.cpp.obj: CXX_COMPILER__V_1_Debug C$:/Users/Est
   OBJECT_DIR = CMakeFiles\V_1.dir
   OBJECT_FILE_DIR = CMakeFiles\V_1.dir
 
+build CMakeFiles/V_1.dir/dice.cpp.obj: CXX_COMPILER__V_1_Debug C$:/Users/EstebanBasson/Documents/local_dev/Minigames$ C++/v1/dice.cpp || cmake_object_order_depends_target_V_1
+  DEP_FILE = CMakeFiles\V_1.dir\dice.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\V_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\V_1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target V_1
@@ -81,7 +87,7 @@ build CMakeFiles/V_1.dir/coinToss.cpp.obj: CXX_COMPILER__V_1_Debug C$:/Users/Est
 #############################################
 # Link the executable V_1.exe
 
-build V_1.exe: CXX_EXECUTABLE_LINKER__V_1_Debug CMakeFiles/V_1.dir/main.cpp.obj CMakeFiles/V_1.dir/guessTheNumber.cpp.obj CMakeFiles/V_1.dir/help.cpp.obj CMakeFiles/V_1.dir/coinToss.cpp.obj
+build V_1.exe: CXX_EXECUTABLE_LINKER__V_1_Debug CMakeFiles/V_1.dir/main.cpp.obj CMakeFiles/V_1.dir/guessTheNumber.cpp.obj CMakeFiles/V_1.dir/help.cpp.obj CMakeFiles/V_1.dir/coinToss.cpp.obj CMakeFiles/V_1.dir/dice.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\V_1.dir

@@ -6,10 +6,11 @@ int help() {
 
     SetConsoleOutputCP(CP_UTF8);
 
-    std::cout << "g : Guess the number\n"
-                 "c : Coin toss\n"
-                 "h : This tab\n"
+    std::cout << "c : Coin toss\n"
+                 "d : dice\n"
                  "e : Exit\n"
+                 "h : This tab\n"
+                 "g : Guess the number\n"
     << std::endl;
 
     return 0;
