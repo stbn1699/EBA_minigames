@@ -29,7 +29,7 @@ int dice() {
             exitDice = true;
         }else{
             nombreFace = 1;
-            std::cout << "vous avez tamé un mauvais numéro :/";
+            std::cout << "vous avez tapé un mauvais numéro :/";
         }
 
     }
