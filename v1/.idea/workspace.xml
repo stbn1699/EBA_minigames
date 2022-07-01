@@ -14,14 +14,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="money count">
+    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="money count text fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moneyCount.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/moneyCount.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/EstebanBasson/Documents/local_dev/Minigames C++/v1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/EstebanBasson/Documents/local_dev/Minigames C++"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EstebanBasson\Documents\local_dev\Minigames C++\v1" />
@@ -91,7 +89,7 @@
       <workItem from="1656065743404" duration="1807000" />
       <workItem from="1656313884486" duration="3765000" />
       <workItem from="1656322644463" duration="5519000" />
-      <workItem from="1656665175431" duration="3788000" />
+      <workItem from="1656665175431" duration="6806000" />
     </task>
     <task id="LOCAL-00001" summary="ton pere la truite choisis un jeu que je connais zebi">
       <created>1656063015727</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656668553523</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="money count text fix">
+      <created>1656669748819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656669748819</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +164,7 @@
     <MESSAGE value="coin toss" />
     <MESSAGE value="correction de faute" />
     <MESSAGE value="money count" />
-    <option name="LAST_COMMIT_MESSAGE" value="money count" />
+    <MESSAGE value="money count text fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="money count text fix" />
   </component>
 </project>
