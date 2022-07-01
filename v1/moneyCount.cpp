@@ -8,14 +8,14 @@ int moneyCount() {
 
     SetConsoleOutputCP(CP_UTF8);
 
-          int billets[] = {1, 2, 5, 10, 20, 50, 100, 200, 500};
-    int nombreBillets[] = {0, 0, 0, 0,  0,  0,  0,   0,   0};
+    int billets[] = {1, 2, 5, 10, 20, 50, 100, 200, 500};
+    int nombreBillets[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
     int prix;
     std::string devise;
 
     std::cout << "\n\t|Bienvenue dans money count|\n\n";
 
-    std::cout << "veuillez indiquer la devise : ";
+    std::cout << "veuillez indiquer la devise (en toutes lettres) : ";
     std::cin >> devise;
 
     std::cout << "veuillez indiquer le prix : ";
