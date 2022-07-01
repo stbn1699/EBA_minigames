@@ -11,6 +11,7 @@ int help() {
                  "e : Exit\n"
                  "h : This tab\n"
                  "g : Guess the number\n"
+                 "m : Money count\n"
     << std::endl;
 
     return 0;

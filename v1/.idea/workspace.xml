@@ -14,10 +14,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="coin toss">
+    <list default="true" id="05befef6-339e-41e9-9d3f-b76cca7dee2b" name="Changes" comment="correction de faute">
+      <change afterPath="$PROJECT_DIR$/moneyCount.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moneyCount.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f0e88698570a22f4d8dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-696d9241e352af09a2c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-24T10-32-23-0541.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-V_1-Debug-46c8789f2b8fd34d97ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/guessTheNumber.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/help.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/help.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/V_1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/V_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guessTheNumber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/guessTheNumber.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/help.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +88,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +105,8 @@
       <workItem from="1656062681489" duration="2901000" />
       <workItem from="1656065743404" duration="1807000" />
       <workItem from="1656313884486" duration="3765000" />
-      <workItem from="1656322644463" duration="1000" />
+      <workItem from="1656322644463" duration="5519000" />
+      <workItem from="1656665175431" duration="2670000" />
     </task>
     <task id="LOCAL-00001" summary="ton pere la truite choisis un jeu que je connais zebi">
       <created>1656063015727</created>
@@ -111,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656066572695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="correction de faute">
+      <created>1656322763620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656322763620</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +165,7 @@
     <MESSAGE value="help tab" />
     <MESSAGE value="guess the nomber fonctionnel (le nombre aléatoire donnait 42 a chaque fois)" />
     <MESSAGE value="coin toss" />
-    <option name="LAST_COMMIT_MESSAGE" value="coin toss" />
+    <MESSAGE value="correction de faute" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction de faute" />
   </component>
 </project>

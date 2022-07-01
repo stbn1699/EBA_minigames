@@ -3,6 +3,7 @@
 #include "help.h"
 #include "coinToss.h"
 #include "dice.h"
+#include "moneyCount.h"
 #include "windows.h"
 
 int main() {
@@ -29,6 +30,9 @@ int main() {
                 break;
             case 'd':
                 dice();
+                break;
+            case 'm':
+                moneyCount();
                 break;
             case 'h':
                 help();
