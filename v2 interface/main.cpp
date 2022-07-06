@@ -4,11 +4,8 @@
 #include "coinToss.h"
 #include "dice.h"
 #include "moneyCount.h"
-#include "windows.h"
 
 int main() {
-
-    SetConsoleOutputCP(CP_UTF8);
 
     char jeuChoisi;
     bool exit = false;

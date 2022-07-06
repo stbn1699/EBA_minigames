@@ -1,12 +1,9 @@
 #include <iostream>
 #include "dice.h"
-#include "windows.h"
 #include <stdlib.h>
 #include <time.h>
 
 int dice() {
-
-    SetConsoleOutputCP(CP_UTF8);
 
     std::string nomFace;
     std::string nomPile;

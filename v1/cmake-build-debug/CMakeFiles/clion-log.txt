@@ -1,4 +1,10 @@
-"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.2/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\EstebanBasson\Documents\local_dev\Minigames C++\v1" -B "C:\Users\EstebanBasson\Documents\local_dev\Minigames C++\v1\cmake-build-debug"
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/198/bin/ninja/linux/ninja -G Ninja -S /home/stbn/Documents/local_dev/EBA_minigames/v1 -B /home/stbn/Documents/local_dev/EBA_minigames/v1/cmake-build-debug
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/EstebanBasson/Documents/local_dev/Minigames C++/v1/cmake-build-debug
+-- Build files have been written to: /home/stbn/Documents/local_dev/EBA_minigames/v1/cmake-build-debug

@@ -1,12 +1,9 @@
 #include <iostream>
 #include "coinToss.h"
-#include "windows.h"
 #include <stdlib.h>
 #include <time.h>
 
 int coinToss() {
-
-    SetConsoleOutputCP(CP_UTF8);
 
     std::string nomFace;
     std::string nomPile;

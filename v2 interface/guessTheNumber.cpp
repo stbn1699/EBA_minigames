@@ -1,13 +1,9 @@
 #include <iostream>
 #include "guessTheNumber.h"
-#include "windows.h"
 #include <stdlib.h>
 #include <time.h>
 
 int guessTheNumber() {
-
-    SetConsoleOutputCP(CP_UTF8);
-
 
     int nombreAleatoire;
     const int MAX = 100, MIN = 0;

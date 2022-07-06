@@ -1,12 +1,9 @@
 #include <iostream>
 #include "moneyCount.h"
-#include "windows.h"
 #include <stdlib.h>
 #include <time.h>
 
 int moneyCount() {
-
-    SetConsoleOutputCP(CP_UTF8);
 
     int billets[] = {1, 2, 5, 10, 20, 50, 100, 200, 500};
     int nombreBillets[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
