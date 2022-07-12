@@ -4,6 +4,7 @@
 #include "coinToss.h"
 #include "dice.h"
 #include "moneyCount.h"
+#include "GameOfLife.h"
 
 int main() {
 
@@ -30,6 +31,9 @@ int main() {
                 break;
             case 'm':
                 moneyCount();
+                break;
+            case 'l':
+                GameOfLife();
                 break;
             case 'h':
                 help();

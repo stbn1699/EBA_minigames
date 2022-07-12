@@ -8,20 +8,36 @@ int dice() {
     std::string nomFace;
     std::string nomPile;
     int nombreFace;
+    int nombreLancer;
+    int numeroDe = 0;
     bool exitDice = false;
 
     std::cout << "\n\t|Bienvenue dans Dice|\n\n";
 
     while(!exitDice){
-        std::cout << "Combien de faces voulez vous? (0 pour quitter)";
+        nombreFace = 0;
+        nombreLancer = 0;
+        numeroDe = 0;
+
+        std::cout << "Combien de faces voulez vous? (0 pour quitter) ";
         std::cin >> nombreFace;
 
+        std::cout << "combien de lancer voulez vous? ";
+        std::cin >> nombreLancer;
+
+        int dice[nombreLancer];
+
         if(nombreFace > 0){
-            int dice;
-            const int MAX = nombreFace, MIN = 1;
-            srand(time(NULL));
-            dice = (rand() % (MAX - MIN + 1)) + MIN;
-            std::cout << "\n\t\t " << dice << "\n\n";
+            while(nombreLancer != 0){
+
+                numeroDe ++;
+                nombreLancer--;
+                srand(time(NULL));
+                dice[numeroDe] = rand() % nombreFace + 1;
+
+                std::cout << "dé n°" << numeroDe << " : " << dice[numeroDe] << " - " << numeroDe << std::endl;
+
+            }
         }else if(nombreFace == 0){
             exitDice = true;
         }else{
