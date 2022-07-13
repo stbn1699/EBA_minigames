@@ -1,0 +1,3 @@
+/home/stbn/Documents/local_dev/miniwouf/miniwouf/cmake-build-debug/CMakeFiles/MINIWOUF.dir
+/home/stbn/Documents/local_dev/miniwouf/miniwouf/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stbn/Documents/local_dev/miniwouf/miniwouf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
