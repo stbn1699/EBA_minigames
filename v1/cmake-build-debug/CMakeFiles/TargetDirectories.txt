@@ -1,3 +1,0 @@
-/home/stbn/Documents/local_dev/EBA_minigames/v1/cmake-build-debug/CMakeFiles/V_1.dir
-/home/stbn/Documents/local_dev/EBA_minigames/v1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/stbn/Documents/local_dev/EBA_minigames/v1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
